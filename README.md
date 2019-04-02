@@ -27,14 +27,23 @@ Run the test case.
 - Python3
 - ID3 Program to view/verify the lyrics (iTunes, MPFreaker, etc.)
 
-Future Enhancements
+### Future Enhancements
 - Plumb the main process to check all lyric websites
 - Add nightly build process to test the lyric websites
 - Support more lyric websites
 - Error handling for song lyrics that were unable to be found
 
+### Supported Lyric Websites
+- [AZLyrics](http://www.azlyrics/com)
+- [PLyrics](http://www.plyrics.com)
+- [LyricsOnDemand](http://lyricsondemand.com)
+- [DarkLyrics](http://www.darklyrics.com)
+- [GeniusLyrics](http://www.genius.com)
 
-Sample Output:
+##### Licensed Under the GPL 3.0 license
+
+
+### Sample Output:
 ```5 Bouncing Souls - Favorite Everything.mp3
 Song With Dash: Bouncing Souls - Favorite Everything
 Artist: Bouncing Souls Song:Favorite Everything Song For HTML: Favorite Everything
