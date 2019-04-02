@@ -11,7 +11,7 @@ class Launcher(object):
         lyrics_processors = [ 'GeniusLyrics', 'DarkLyrics', 'AZLyrics', 'LyricsOnDemand', 'PLyrics' ]
 
         # List the files in the chosen directory
-        path_to_music = '/Users/rallaby/Downloads/Process Lyrics/Wu-Tang Clan - The Saga Continues/'
+        path_to_music = '/Users/user/Downloads/Process Lyrics/Wu-Tang Clan - The Saga Continues/'
 
         artists_in_directory = Utils.list_songs_in_directory( path_to_music )
         Utils.remove_ds_store_files( artists_in_directory )
