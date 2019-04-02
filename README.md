@@ -20,6 +20,8 @@ Songs must be stored with the following naming convention:
 
 `Artist Name - Song Title With-Dashes or Spaces`
 
+![Example Album with Naming Convention](https://storage.matiboux.com/imgshot/DGKdoiSMYXo4.png)
+
 
 Currently using NameChanger application for Mac OS X to help rename mass amounts of files:
 [NameChanger](https://mrrsoftware.com/namechanger/)
