@@ -1,8 +1,8 @@
 # lyrics-processor
 Automated Lyrics processor for your mp3 files.  This process will update your locally stored mp3 files ID3 tags with the lyrics of the song.
 
-## Architecture
-The system is built with:
+## Architecture:
+The system is built with the following components:
 - Python
 - BeautifulSoup
 - mutagen.id3
@@ -11,30 +11,39 @@ The system is built with:
 The system uses a Factory to load the particular lyric website you want to use.
 New lyric websites can be added independantly.
 
-### How to Use
+The state of the system is POC.
+
+Lyrics are shown in iTunes, on iPhone while playing.
+
+### How to Use:
 Songs must be stored with the following naming convention:
 
-```Artist Name - Song Title With-Dashes or Spaces```
+`Artist Name - Song Title With-Dashes or Spaces`
 
-Currently depending on NameChanger application for Mac OS X to help rename mass amounts of files:
+
+Currently using NameChanger application for Mac OS X to help rename mass amounts of files:
 [NameChanger](https://mrrsoftware.com/namechanger/)
 
-Update Test_lyrics_processor.py and update ```path_to_music``` and place the path to the mp3 files in the test case.
+Update `test_lyrics_processor.py` and update variable `path_to_music` and place the path to the local mp3 files in the test case.
 Run the test case.
 
 ### Requirements:
 - MP3 file(s)
 - Python3
-- ID3 Program to view/verify the lyrics (iTunes, MPFreaker, etc.)
+- ID3 Program to view/verify the lyrics (iTunes, MPFreaker, Sound Studio etc.)
 
-### Future Enhancements
+### Optional Requirements:
+- PyCharm
+- NameChanger
+
+### Future Enhancements:
 - Plumb the main process to check all lyric websites
 - Add nightly build process to test the lyric websites
 - Support more lyric websites
 - Error handling for song lyrics that were unable to be found
 
-### Supported Lyric Websites
-- [AZLyrics](http://www.azlyrics/com)
+### Currently Supported Lyric Websites:
+- [AZLyrics](http://www.azlyrics.com)
 - [PLyrics](http://www.plyrics.com)
 - [LyricsOnDemand](http://lyricsondemand.com)
 - [DarkLyrics](http://www.darklyrics.com)
