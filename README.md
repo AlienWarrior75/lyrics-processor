@@ -102,6 +102,8 @@ You're my favorite everything
 Song File: /Users/user/Downloads/New Music/The Bouncing Souls - Crucial Moments (2019)/Bouncing Souls - Favorite Everything.mp3
 ```
 
+![Song With Lyrics](https://storage.matiboux.com/imgshot/00IjADVCEc0I.png)
+
 ### Issues
 - DarkLyrics has organized the lyrics by album
 
