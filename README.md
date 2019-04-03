@@ -18,7 +18,7 @@ Lyrics are shown in iTunes, on iPhone while playing.
 ### How to Use:
 Songs must be stored with the following naming convention:
 
-`Artist Name - Song Title With-Dashes or Spaces`
+`Artist Name - Song Title With-Dashes and Spaces`
 
 ![Example Album with Naming Convention](https://storage.matiboux.com/imgshot/DGKdoiSMYXo4.png)
 
